@@ -12,6 +12,22 @@ make
 python3 setup.py build
 python3 setup.py install
 ```
+#### Use python library
+``` python
+import os
+import opsplash as o
+
+f = "splash.img"
+
+# Unpack a splash image
+if os.access(f, os.F_OK):
+    # o.readinfo(f)
+    o.unpack(f)
+
+if os.access(f, os.F_OK):
+    o.repack(f, "new-splash.img")
+
+```
 
 ## Prebuilt library
 In prebuilt dir    
