@@ -1,0 +1,8 @@
+#ifndef __OPSPLASH_VERSION_H
+
+#define OPSPLASH_MAJOR_VERSION @libopsplash_VERSION_MAJOR@
+#define OPSPLASH_MINOR_VERSION @libopsplash_VERSION_MINOR@
+#define OPSPLASH_PATCH_VERSION @libopsplash_VERSION_PATCH@
+#define OPSPLASH_AUTHOR        @libopsplash_AUTHOR@
+
+#endif

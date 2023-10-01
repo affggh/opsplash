@@ -1,0 +1,13 @@
+.vscode
+
+splash.*
+
+build
+
+pic
+
+*.a
+*.o
+*.lib
+*.dll
+*.so
