@@ -4,6 +4,11 @@ extern "C"
 {
 #endif
 
+// windows binary spec
+#ifndef O_BINARY
+#define O_BINARY 0
+#endif
+
 #include <stdint.h>
 #include <iostream>
 
